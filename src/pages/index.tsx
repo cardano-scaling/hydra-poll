@@ -14,16 +14,18 @@ export default function Home() {
         <meta name="description" content="Poll running on Hydra Head protocol" />
       </Head>
 
+      <div className="wallet">
+        <p>Network: Preprod</p>
+      </div>
+
       <CardanoWallet />
+
 
       <main className="main">
         <Main />
       </main>
 
       <Toaster />
-
-      <footer className="footer">
-      </footer>
     </div>
   )
 }

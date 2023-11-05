@@ -29,7 +29,7 @@ export const buildScriptTx = async (
     const dataHash = resolveDataHash(datumValue)
     const asset: Asset = {
         unit: "lovelace",
-        quantity: "98000000"
+        quantity: "9997835926"
     }
     const value: UTxO = {
         input: {

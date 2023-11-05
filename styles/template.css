@@ -152,3 +152,10 @@ body {
     border-color: #222;
   }
 }
+.wallet{
+  display: flex;
+  align-items: left;
+  text-align: left;
+font-size: 0.7rem;
+
+}
